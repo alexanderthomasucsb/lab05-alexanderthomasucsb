@@ -5,7 +5,7 @@ int main() {
 
 
        int fiveThrees[5]={3,3,3,3,3};
-  assertEquals(5,
+  assertEquals(15,
                sumOdds(fiveThrees,5),
                "sumOdds(fiveThrees,5)");
 
@@ -16,15 +16,15 @@ int main() {
 
 
   int fiveInts[5]={12,3,4,-9,1};
-  assertEquals(3,
+  assertEquals(-5,
                sumOdds(fiveInts,5),
                "sumOdds(fiveInts,5)" );
 
-  assertEquals(1,
+  assertEquals(3,
                sumOdds(fiveInts,3),
                "sumOdds(fiveInts,3)" );
 
-  assertEquals(1,
+  assertEquals(3,
                sumOdds(fiveInts,2),
                "sumOdds(fiveInts,2)" );
 
@@ -33,8 +33,8 @@ int main() {
                sumOdds(meaning,1),
                "sumOdds(meaning,1)" );
 
-  int mix[10]={-42,12,-9,56,123,-32767,48}; // last three will be zero
-  assertEquals(3,
+  int mix[10]={-42,12,-9,56,123,-32,48}; // last three will be zero
+  assertEquals(114,
                sumOdds(mix,10),
                "sumOdds(mix,10)" );
 

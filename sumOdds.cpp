@@ -7,13 +7,13 @@
 int sumOdds(int a[], int size) {
  
 
-	int numOdds = 0;
+	int sumOdds = 0;
     for(int i =0; i< size; i++){
         if(a[i]%2 !=0){
-            ++numOdds;
+            sumOdds += a[i];
         }
     }
 
 
-	return numOdds; // STUB!  Replace with correct code.
+	return sumOdds; // STUB!  Replace with correct code.
 }

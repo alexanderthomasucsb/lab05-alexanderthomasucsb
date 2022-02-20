@@ -5,5 +5,15 @@
 #include "utility.h"
 
 int sumOdds(int a[], int size) {
-  return -42; // STUB!  Replace with correct code.
+ 
+
+	int numOdds = 0;
+    for(int i =0; i< size; i++){
+        if(a[i]%2 ==1){
+            ++numOdds;
+        }
+    }
+
+
+	return numOdds; // STUB!  Replace with correct code.
 }
